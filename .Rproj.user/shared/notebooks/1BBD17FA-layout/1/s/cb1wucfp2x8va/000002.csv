@@ -1,0 +1,7 @@
+"0","```r
+#save
+ g <- arrangeGrob(plot1, plot2, plot3, nrow=3) #generates g
+```"
+"1","Error in arrangeGrob(plot1, plot2, plot3, nrow = 3) : 
+  object 'plot1' not found
+"

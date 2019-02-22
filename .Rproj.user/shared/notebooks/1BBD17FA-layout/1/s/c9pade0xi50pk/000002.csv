@@ -1,0 +1,8 @@
+"0","```r
+pdf(\"output/maps.pdf\", width = 8, height = 12, paper = \"A4\") # Open a new pdf file
+grid.arrange(mapA, mapB, mapC, mapD, mapE, maptotal ,ncol = 2, nrow=3)
+dev.off() # Close the file
+```"
+"1","null device 
+          1 
+"

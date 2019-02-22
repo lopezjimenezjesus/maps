@@ -1,0 +1,21 @@
+"0","```r
+library(png)
+library(jpeg)
+library(grid)
+library(gridExtra)
+```"
+"1","
+Attaching package: 'gridExtra'
+
+The following object is masked from 'package:dplyr':
+
+    combine
+"
+"0","```r
+mapA <-  rasterGrob(as.raster(readJPEG(\"output/map_A.jpg\")), interpolate = FALSE)
+mapB <-  rasterGrob(as.raster(readJPEG(\"output/map_B.jpg\")), interpolate = FALSE)
+mapC <-  rasterGrob(as.raster(readJPEG(\"output/map_C.jpg\")), interpolate = FALSE)
+mapD <-  rasterGrob(as.raster(readJPEG(\"output/map_D.jpg\")), interpolate = FALSE)
+mapE <-  rasterGrob(as.raster(readJPEG(\"output/map_E.jpg\")), interpolate = FALSE)
+maptotal <-  rasterGrob(as.raster(readJPEG(\"output/map_total.jpg\")), interpolate = FALSE)
+```"
